@@ -1,0 +1,127 @@
+{
+  "DLSVersion": "2.1.6",
+  "Name": "D-255hx",
+  "NameLocation": 0,
+  "ChipType": 0,
+  "Size": {
+    "x": 2.075,
+    "y": 1.875
+  },
+  "Colour": {
+    "r": 0.0610443279,
+    "g": 0.2749436,
+    "b": 0.0649697557,
+    "a": 1
+  },
+  "InputPins":[
+    {
+      "Name":"IN",
+      "ID":2044108487,
+      "Position":{
+        "x":-10.52403,
+        "y":-1.09459
+      },
+      "BitCount":8,
+      "Colour":0,
+      "ValueDisplayMode":0
+    }
+  ],
+  "OutputPins":[],
+  "SubChips":[
+    {
+      "Name":"D-16hex",
+      "ID":590902732,
+      "Label":"",
+      "Position":{
+        "x":-0.8253,
+        "y":0.48375
+      },
+      "OutputPinColourInfo":[{"PinColour":0,"PinID":2140817672},{"PinColour":0,"PinID":1676741097},{"PinColour":0,"PinID":80363434},{"PinColour":0,"PinID":250580501},{"PinColour":0,"PinID":474825452},{"PinColour":0,"PinID":1993478677},{"PinColour":0,"PinID":1625396147}],
+      "InternalData":null
+    },
+    {
+      "Name":"8-4BIT",
+      "ID":1249603762,
+      "Label":"",
+      "Position":{
+        "x":-7.26256,
+        "y":-1.0732
+      },
+      "OutputPinColourInfo":[{"PinColour":0,"PinID":1},{"PinColour":0,"PinID":2}],
+      "InternalData":null
+    },
+    {
+      "Name":"D-16hex",
+      "ID":358664772,
+      "Label":"",
+      "Position":{
+        "x":-2.26875,
+        "y":0.42387
+      },
+      "OutputPinColourInfo":[{"PinColour":0,"PinID":2140817672},{"PinColour":0,"PinID":1676741097},{"PinColour":0,"PinID":80363434},{"PinColour":0,"PinID":250580501},{"PinColour":0,"PinID":474825452},{"PinColour":0,"PinID":1993478677},{"PinColour":0,"PinID":1625396147}],
+      "InternalData":null
+    }
+  ],
+  "Wires":[
+    {
+      "SourcePinAddress":{
+        "PinID":0,
+        "PinOwnerID":2044108487
+      },
+      "TargetPinAddress":{
+        "PinID":0,
+        "PinOwnerID":1249603762
+      },
+      "ConnectionType":0,
+      "ConnectedWireIndex":-1,
+      "ConnectedWireSegmentIndex":-1,
+      "Points":[{"x":0.0,"y":0.0},{"x":0.0,"y":0.0}]
+    },
+    {
+      "SourcePinAddress":{
+        "PinID":1,
+        "PinOwnerID":1249603762
+      },
+      "TargetPinAddress":{
+        "PinID":205901172,
+        "PinOwnerID":590902732
+      },
+      "ConnectionType":0,
+      "ConnectedWireIndex":-1,
+      "ConnectedWireSegmentIndex":-1,
+      "Points":[{"x":0.0,"y":0.0},{"x":0.0,"y":0.0}]
+    },
+    {
+      "SourcePinAddress":{
+        "PinID":2,
+        "PinOwnerID":1249603762
+      },
+      "TargetPinAddress":{
+        "PinID":205901172,
+        "PinOwnerID":358664772
+      },
+      "ConnectionType":0,
+      "ConnectedWireIndex":-1,
+      "ConnectedWireSegmentIndex":-1,
+      "Points":[{"x":0.0,"y":0.0},{"x":0.0,"y":0.0}]
+    }
+  ],
+  "Displays":[
+    {
+      "SubChipID":358664772,
+      "Position":{
+        "x":-0.51666,
+        "y":0.03333
+      },
+      "Scale":1.0
+    },
+    {
+      "SubChipID":590902732,
+      "Position":{
+        "x":0.49167,
+        "y":0.03333
+      },
+      "Scale":1.0
+    }
+  ]
+}

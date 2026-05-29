@@ -1,0 +1,71 @@
+{
+  "DLSVersion": "2.1.6",
+  "Name": "D-16",
+  "NameLocation": 0,
+  "ChipType": 0,
+  "Size": {
+    "x": 0.725,
+    "y": 0.375
+  },
+  "Colour": {
+    "r": 0.2716831,
+    "g": 0.107974544,
+    "b": 0.2567092,
+    "a": 1
+  },
+  "InputPins":[
+    {
+      "Name":"IN",
+      "ID":193316076,
+      "Position":{
+        "x":-11.32808,
+        "y":-0.30684
+      },
+      "BitCount":4,
+      "Colour":0,
+      "ValueDisplayMode":0
+    }
+  ],
+  "OutputPins":[],
+  "SubChips":[
+    {
+      "Name":"SPLIT-16",
+      "ID":277899649,
+      "Label":"",
+      "Position":{
+        "x":-9.42259,
+        "y":-0.294
+      },
+      "OutputPinColourInfo":[{"PinColour":0,"PinID":2147136096},{"PinColour":0,"PinID":1040102192}],
+      "InternalData":null
+    },
+    {
+      "Name":"D-8",
+      "ID":886316481,
+      "Label":"",
+      "Position":{
+        "x":-5.98473,
+        "y":0.70176
+      },
+      "OutputPinColourInfo":[{"PinColour":0,"PinID":2140817672},{"PinColour":0,"PinID":1676741097},{"PinColour":0,"PinID":80363434},{"PinColour":0,"PinID":250580501},{"PinColour":0,"PinID":474825452},{"PinColour":0,"PinID":1993478677},{"PinColour":0,"PinID":1625396147}],
+      "InternalData":null
+    }
+  ],
+  "Wires":[
+    {
+      "SourcePinAddress":{
+        "PinID":0,
+        "PinOwnerID":193316076
+      },
+      "TargetPinAddress":{
+        "PinID":1456849448,
+        "PinOwnerID":277899649
+      },
+      "ConnectionType":0,
+      "ConnectedWireIndex":-1,
+      "ConnectedWireSegmentIndex":-1,
+      "Points":[{"x":0.0,"y":0.0},{"x":0.0,"y":0.0}]
+    }
+  ],
+  "Displays": null
+}
