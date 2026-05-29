@@ -66,8 +66,8 @@
       "ID":268944597,
       "Label":"G",
       "Position":{
-        "x":1.19073,
-        "y":1.05418
+        "x":1.21011,
+        "y":1.09101
       },
       "OutputPinColourInfo":[],
       "InternalData":null
@@ -248,20 +248,6 @@
         "PinOwnerID":53004340
       },
       "TargetPinAddress":{
-        "PinID":6,
-        "PinOwnerID":268944597
-      },
-      "ConnectionType":0,
-      "ConnectedWireIndex":-1,
-      "ConnectedWireSegmentIndex":-1,
-      "Points":[{"x":0.0,"y":0.0},{"x":0.0,"y":0.0}]
-    },
-    {
-      "SourcePinAddress":{
-        "PinID":0,
-        "PinOwnerID":53004340
-      },
-      "TargetPinAddress":{
         "PinID":5,
         "PinOwnerID":268944597
       },
@@ -319,6 +305,20 @@
       },
       "TargetPinAddress":{
         "PinID":2,
+        "PinOwnerID":268944597
+      },
+      "ConnectionType":0,
+      "ConnectedWireIndex":-1,
+      "ConnectedWireSegmentIndex":-1,
+      "Points":[{"x":0.0,"y":0.0},{"x":0.0,"y":0.0}]
+    },
+    {
+      "SourcePinAddress":{
+        "PinID":0,
+        "PinOwnerID":53004340
+      },
+      "TargetPinAddress":{
+        "PinID":6,
         "PinOwnerID":268944597
       },
       "ConnectionType":0,

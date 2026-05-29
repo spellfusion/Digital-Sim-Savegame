@@ -1,0 +1,69 @@
+{
+  "DLSVersion": "2.1.6",
+  "Name": "-",
+  "NameLocation": 0,
+  "ChipType": 0,
+  "Size": {
+    "x": 0.52188,
+    "y": 0.875
+  },
+  "Colour": {
+    "r": 0.48460117,
+    "g": 0.6029978,
+    "b": 0.6633872,
+    "a": 1
+  },
+  "InputPins":[
+    {
+      "Name":"IN",
+      "ID":701470705,
+      "Position":{
+        "x":-6.86661,
+        "y":0.74009
+      },
+      "BitCount":1,
+      "Colour":0,
+      "ValueDisplayMode":0
+    }
+  ],
+  "OutputPins":[],
+  "SubChips":[
+    {
+      "Name":"7-SEGMENT",
+      "ID":1605934305,
+      "Label":"",
+      "Position":{
+        "x":-4.52546,
+        "y":0.6515
+      },
+      "OutputPinColourInfo":[],
+      "InternalData":null
+    }
+  ],
+  "Wires":[
+    {
+      "SourcePinAddress":{
+        "PinID":0,
+        "PinOwnerID":701470705
+      },
+      "TargetPinAddress":{
+        "PinID":6,
+        "PinOwnerID":1605934305
+      },
+      "ConnectionType":0,
+      "ConnectedWireIndex":-1,
+      "ConnectedWireSegmentIndex":-1,
+      "Points":[{"x":0.0,"y":0.0},{"x":0.0,"y":0.0}]
+    }
+  ],
+  "Displays":[
+    {
+      "SubChipID":1605934305,
+      "Position":{
+        "x":-0.0016,
+        "y":-0.00305
+      },
+      "Scale":0.490478337
+    }
+  ]
+}
