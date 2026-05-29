@@ -3,7 +3,7 @@
   "DLSVersion_LastSaved": "2.1.6",
   "DLSVersion_EarliestCompatible": "2.0.0",
   "CreationTime": "2026-05-27T18:41:33.404+02:00",
-  "LastSaveTime": "2026-05-29T16:20:45.786+02:00",
+  "LastSaveTime": "2026-05-29T19:07:51.925+02:00",
   "Prefs_MainPinNamesDisplayMode": 1,
   "Prefs_ChipPinNamesDisplayMode": 1,
   "Prefs_GridDisplayMode": 0,
@@ -53,7 +53,13 @@
     "COUNT-8",
     "COUNT-16",
     "COUNT-64",
-    "COUNT-32"
+    "COUNT-32",
+    "MIN-4",
+    "SEL-1",
+    "SEL-2",
+    "SEL-3",
+    "EQ-8",
+    "D-SIEG"
   ],
   "StarredList":[
     {
@@ -73,24 +79,12 @@
       "IsCollection":true
     },
     {
-      "Name":"SPLIT-16",
-      "IsCollection":false
-    },
-    {
-      "Name":"SEL-4",
-      "IsCollection":false
-    },
-    {
       "Name":"DP",
       "IsCollection":true
     },
     {
       "Name":"GAMES",
       "IsCollection":true
-    },
-    {
-      "Name":"Battleships",
-      "IsCollection":false
     },
     {
       "Name":"DEMUX8x2",
@@ -101,7 +95,11 @@
       "IsCollection":true
     },
     {
-      "Name":"D-XO8",
+      "Name":"EQ-8",
+      "IsCollection":false
+    },
+    {
+      "Name":"D-SIEG",
       "IsCollection":false
     }
   ],
@@ -137,28 +135,28 @@
       "Name":"MEMORY"
     },
     {
-      "Chips":["BUZZER","CALC","TGL-4","SPLIT-16","SEL-4","Battleships","DEMUX8x2","D-XO8"],
+      "Chips":["BUZZER","CALC","TGL-4","SEL-4","DEMUX8x2"],
       "IsToggledOpen":true,
       "Name":"OTHER"
     },
     {
-      "Chips":["AND-3","NOT","AND","OR","NAND","NOR","XNOR","XOR","OR-3","OR-4","EITHER","DEMUX1x2"],
+      "Chips":["NOT","AND","AND-3","OR","NAND","NOR","XNOR","XOR","OR-3","OR-4","SEL-1","SEL-2","SEL-3","SPLIT-16","EITHER","DEMUX1x2"],
       "IsToggledOpen":false,
       "Name":"LOGIC"
     },
     {
-      "Chips":["ADD-8","ADD-1","ADD-2","ADD-4","MIN-1","MIN-2","MIN-3","COUNT-8","COUNT-16","COUNT-32","COUNT-64"],
-      "IsToggledOpen":true,
+      "Chips":["MIN-4","ADD-8","ADD-1","ADD-2","ADD-4","MIN-1","MIN-2","MIN-3","COUNT-8","COUNT-16","COUNT-32","COUNT-64"],
+      "IsToggledOpen":false,
       "Name":"MATH"
     },
     {
-      "Chips":["=","+","D-255hx","D-16hex","D-XO","D-16b","D-16","NUM-8","D-8b","D-8"],
-      "IsToggledOpen":false,
+      "Chips":["D-XO8","=","+","D-255hx","D-16hex","D-XO","D-16b","D-16","NUM-8","D-8b","D-8"],
+      "IsToggledOpen":true,
       "Name":"DP"
     },
     {
-      "Chips":["Calc-255","TicToe"],
-      "IsToggledOpen":false,
+      "Chips":["Battleships","Calc-255","TicToe"],
+      "IsToggledOpen":true,
       "Name":"GAMES"
     }
   ]
