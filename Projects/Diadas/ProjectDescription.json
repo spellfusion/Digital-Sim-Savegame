@@ -3,7 +3,7 @@
   "DLSVersion_LastSaved": "2.1.6",
   "DLSVersion_EarliestCompatible": "2.0.0",
   "CreationTime": "2026-05-27T18:41:33.404+02:00",
-  "LastSaveTime": "2026-05-29T20:54:13.735+02:00",
+  "LastSaveTime": "2026-06-06T20:21:25.143+02:00",
   "Prefs_MainPinNamesDisplayMode": 1,
   "Prefs_ChipPinNamesDisplayMode": 1,
   "Prefs_GridDisplayMode": 0,
@@ -64,7 +64,13 @@
     "MOD-10",
     "D-10",
     "MIN-5",
-    "SEL-8"
+    "SEL-8",
+    "Mem-1",
+    "Mem-4",
+    "Mem-8",
+    "Mem-16",
+    "Counter-8",
+    "Music"
   ],
   "StarredList":[
     {
@@ -126,6 +132,30 @@
     {
       "Name":"SEL-8",
       "IsCollection":false
+    },
+    {
+      "Name":"Mem-1",
+      "IsCollection":false
+    },
+    {
+      "Name":"Mem-4",
+      "IsCollection":false
+    },
+    {
+      "Name":"Mem-8",
+      "IsCollection":false
+    },
+    {
+      "Name":"Mem-16",
+      "IsCollection":false
+    },
+    {
+      "Name":"Counter-8",
+      "IsCollection":false
+    },
+    {
+      "Name":"Music",
+      "IsCollection":false
     }
   ],
   "ChipCollections":[
@@ -160,7 +190,7 @@
       "Name":"MEMORY"
     },
     {
-      "Chips":["BUZZER","CALC","TGL-4","DEMUX8x2","EQ-8","D-SIEG","-","MOD-10"],
+      "Chips":["BUZZER","CALC","TGL-4","DEMUX8x2","EQ-8","D-SIEG","-","MOD-10","D-10","MIN-5","SEL-8","Mem-1","Mem-4","Mem-8","Mem-16","Counter-8"],
       "IsToggledOpen":true,
       "Name":"OTHER"
     },
