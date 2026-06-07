@@ -3,7 +3,7 @@
   "DLSVersion_LastSaved": "2.1.6",
   "DLSVersion_EarliestCompatible": "2.0.0",
   "CreationTime": "2026-05-27T18:41:33.404+02:00",
-  "LastSaveTime": "2026-06-06T20:55:26.652+02:00",
+  "LastSaveTime": "2026-06-07T10:35:46.972+02:00",
   "Prefs_MainPinNamesDisplayMode": 1,
   "Prefs_ChipPinNamesDisplayMode": 1,
   "Prefs_GridDisplayMode": 0,
@@ -74,7 +74,12 @@
     "Mem-8b",
     "OR-1B",
     "Mem-1b",
-    "EQ-4"
+    "EQ-4",
+    "D-4x8",
+    "C-Test",
+    "D-8x8",
+    "Bird",
+    "Terrain"
   ],
   "StarredList":[
     {
@@ -175,6 +180,26 @@
     },
     {
       "Name":"EQ-4",
+      "IsCollection":false
+    },
+    {
+      "Name":"D-4x8",
+      "IsCollection":false
+    },
+    {
+      "Name":"C-Test",
+      "IsCollection":false
+    },
+    {
+      "Name":"D-8x8",
+      "IsCollection":false
+    },
+    {
+      "Name":"Bird",
+      "IsCollection":false
+    },
+    {
+      "Name":"Terrain",
       "IsCollection":false
     }
   ],
